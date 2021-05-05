@@ -1,0 +1,308 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* ===========================
+        nav section start
+    ============================*/
+    .menu_head {
+        margin-left: -290px;
+    }
+
+    .menu {
+        margin-left: 0px;
+    }
+
+    /* ===========================
+       nav section end
+    ============================*/
+    .main_content {
+        margin-left: 0px;
+    }
+
+    /* ============================
+            about section stsrt
+    ============================= */
+    #about .about_box::after {
+        top: -10px ;
+        left: 50% ;
+        transform: rotate(225deg) ;
+    }
+    
+    .about_text{
+        margin-bottom: 2rem;
+    }
+
+    #about .state .state_item{
+        margin-bottom: 2rem;
+    }
+
+    #about .state .item_1{
+        text-align: left;
+    }
+
+    #about .state .item_2{
+        text-align: right;
+    }
+
+    #about .state .item_3{
+        text-align: left;
+    }
+
+    #about .state .item_4{
+        text-align: right;
+    }
+
+
+
+    #services .service_box{
+        width: 290px;
+        margin-bottom: 2rem;
+    }
+
+    #experience .experience_body{
+        width: 365px;
+        margin: 0 auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    /* ===========================
+        nav section start
+    ============================*/
+    .menu_head {
+        margin-left: -290px;
+    }
+
+    .menu {
+        margin-left: 0px;
+    }
+    /* ===========================
+        nav section end
+    ============================*/
+    .main_content {
+        margin-left: 0px;
+    }
+
+    /* ============================
+            about section stsrt
+    ============================= */
+    #about .about_box::after {
+        top: -10px ;
+        left: 50% ;
+        transform: rotate(225deg) ;
+    }
+
+    .about_text{
+        margin-bottom: 2rem;
+    }
+
+    #about .state .state_item{
+        margin-bottom: 2rem;
+    }
+
+    #about .state .item_1{
+        text-align: left;
+    }
+
+    #about .state .item_2{
+        text-align: right;
+    }
+
+    #about .state .item_3{
+        text-align: left;
+    }
+
+    #about .state .item_4{
+        text-align: right;
+    }
+
+
+
+    #services .service_box{
+        width: 290px;
+        margin-bottom: 2rem;
+    }
+
+    #experience .experience_body{
+        width: 365px;
+        margin: 1rem auto;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    /* ===========================
+        nav section start
+    ============================ */
+    .menu_head {
+        margin-left: -290px;
+    }
+
+    .menu {
+        margin-left: 0px;
+    }
+
+    /* ===========================
+        nav section end
+    ============================*/
+
+    .main_content {
+        margin-left: 0px;
+    }
+
+    /* ============================
+            about section stsrt
+    ============================= */
+    #about .about_box::after {
+        top: -10px ;
+        left: 50% ;
+        transform: rotate(225deg) ;
+    }
+
+    #about .state .state_item{
+        margin-bottom: 2rem;
+    }
+
+    #about .state .item_1{
+        text-align: center;
+    }
+
+    #about .state .item_2{
+        text-align: center;
+    }
+
+    #about .state .item_3{
+        text-align: center;
+    }
+
+    #about .state .item_4{
+        text-align: center;
+    }
+
+
+
+    #services .service_box{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #experience .experience_body{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu_head {
+        margin-left: 0;
+    }
+
+    #mobile_btn {
+        display: none;
+    }
+
+    .main_content {
+        margin-left: 290px;
+    }
+
+    #baner .navbar-brand img {
+        display: none;
+    }
+
+    /* ============================
+            about section stsrt
+    ============================= */
+    #about .about_box::after {
+        top: 100px ;
+        left: -10px ;
+        transform: rotate(135deg) ;
+    }
+
+    #about .state .item_1{
+        text-align: center;
+    }
+
+    #about .state .item_2{
+        text-align: center;
+    }
+
+    #about .state .item_3{
+        text-align: center;
+    }
+
+    #about .state .item_4{
+        text-align: center;
+    }
+
+
+    #services .service_box{
+        width: 100%;
+    }
+
+    .display{
+        display: none;
+    }
+
+    #experience .experience_body{
+        width: 100%;
+    }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1250px) {
+    .container{
+        max-width: 1080px;
+    }
+    .menu_head {
+        margin-left: 0;
+    }
+
+    #mobile_btn {
+        display: none;
+    }
+
+    .main_content {
+        margin-left: 290px;
+    }
+
+    #baner .navbar-brand img {
+        display: none;
+    }
+
+    /* ============================
+            about section stsrt
+    ============================= */
+    #about .about_box::after {
+        top: 100px ;
+        left: -10px ;
+        transform: rotate(135deg) ;
+    }
+
+    #services .service_box{
+        width: 100%;
+    }
+
+    .display{
+        display: none;
+    }
+
+    #experience .experience_body{
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1365px){
+
+
+
+}
