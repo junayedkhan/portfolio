@@ -64,11 +64,11 @@ $(document).ready(function () {
   $('.list').click(function () {
     const value = $(this).attr('filter_data')
     if(value == 'all'){
-      $('.itembox').show('1000')
+      $('.item').show('1000')
     }
     else{
-      $('.itembox').not('.'+ value).hide('slow')
-      $('.itembox').filter('.'+ value).show('slow')
+      $('.item').not('.'+ value).hide('slow')
+      $('.item').filter('.'+ value).show('slow')
     }
   })
   $('.list').click(function (e) { 
