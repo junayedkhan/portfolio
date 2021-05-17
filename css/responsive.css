@@ -23,41 +23,68 @@
             about section stsrt
     ============================= */
     #about .about_box::after {
-        top: -10px ;
-        left: 50% ;
-        transform: rotate(225deg) ;
+        top: -10px;
+        left: 50%;
+        transform: rotate(225deg);
     }
-    
-    .about_text{
+
+    .about_text {
         margin-bottom: 2rem;
     }
 
-    #about .state .state_item{
+    #about .state .state_item {
         margin-bottom: 2rem;
     }
 
-    #about .state .item_1{
+    #about .state .item_1 {
         text-align: center;
     }
 
-    #about .state .item_2{
+    #about .state .item_2 {
         text-align: center;
     }
 
-    #about .state .item_3{
+    #about .state .item_3 {
         text-align: center;
     }
 
-    #about .state .item_4{
+    #about .state .item_4 {
         text-align: center;
     }
 
-    #services .service_box{
+    #services .service_box {
         margin-bottom: 20px;
     }
 
-    #experience .experience_body{
+    #experience .experience_body {
         margin-bottom: 20px;
+    }
+
+    #pricing .pricing_item {
+        margin-bottom: 30px;
+    }
+
+    #blog .blog_content {
+        margin-bottom: 30px;
+    }
+
+    #contact .contact_info {
+        margin-bottom: 40px;
+    }
+
+    .form_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form_content input {
+        width: 280px;
+    }
+
+    .form_content button {
+        margin-top: 15px;
     }
 
 }
@@ -75,6 +102,7 @@
     .menu {
         margin-left: 0px;
     }
+
     /* ===========================
         nav section end
     ============================*/
@@ -86,45 +114,53 @@
             about section stsrt
     ============================= */
     #about .about_box::after {
-        top: -10px ;
-        left: 50% ;
-        transform: rotate(225deg) ;
+        top: -10px;
+        left: 50%;
+        transform: rotate(225deg);
     }
 
-    .about_text{
+    .about_text {
         margin-bottom: 2rem;
     }
 
-    #about .state .state_item{
+    #about .state .state_item {
         margin-bottom: 2rem;
     }
 
-    #about .state .item_1{
+    #about .state .item_1 {
         text-align: center;
     }
 
-    #about .state .item_2{
+    #about .state .item_2 {
         text-align: center;
     }
 
-    #about .state .item_3{
+    #about .state .item_3 {
         text-align: center;
     }
 
-    #about .state .item_4{
+    #about .state .item_4 {
         text-align: center;
     }
 
-    #services .service_box{
+    #services .service_box {
         margin-bottom: 20px;
     }
 
-    #experience .experience_body{
+    #experience .experience_body {
         margin-bottom: 20px;
     }
 
-    #pricing .pricing_item{
+    #pricing .pricing_item {
         margin-bottom: 30px;
+    }
+
+    #blog .blog_content {
+        margin-bottom: 30px;
+    }
+
+    #contact .contact_info {
+        margin-bottom: 40px;
     }
 }
 
@@ -155,39 +191,39 @@
             about section stsrt
     ============================= */
     #about .about_box::after {
-        top: -10px ;
-        left: 50% ;
-        transform: rotate(225deg) ;
+        top: -10px;
+        left: 50%;
+        transform: rotate(225deg);
     }
 
-    #about .state .state_item{
+    #about .state .state_item {
         margin-bottom: 2rem;
     }
 
-    #about .state .item_1{
+    #about .state .item_1 {
         text-align: center;
     }
 
-    #about .state .item_2{
+    #about .state .item_2 {
         text-align: center;
     }
 
-    #about .state .item_3{
+    #about .state .item_3 {
         text-align: center;
     }
 
-    #about .state .item_4{
+    #about .state .item_4 {
         text-align: center;
     }
 
 
 
-    #services .service_box{
+    #services .service_box {
         width: 100%;
         margin-bottom: 2rem;
     }
 
-    #experience .experience_body{
+    #experience .experience_body {
         width: 100%;
         margin: 0 auto;
     }
@@ -215,37 +251,37 @@
             about section stsrt
     ============================= */
     #about .about_box::after {
-        top: 100px ;
-        left: -10px ;
-        transform: rotate(135deg) ;
+        top: 100px;
+        left: -10px;
+        transform: rotate(135deg);
     }
 
-    #about .state .item_1{
+    #about .state .item_1 {
         text-align: center;
     }
 
-    #about .state .item_2{
+    #about .state .item_2 {
         text-align: center;
     }
 
-    #about .state .item_3{
+    #about .state .item_3 {
         text-align: center;
     }
 
-    #about .state .item_4{
+    #about .state .item_4 {
         text-align: center;
     }
 
 
-    #services .service_box{
+    #services .service_box {
         width: 100%;
     }
 
-    .display{
+    .display {
         display: none;
     }
 
-    #experience .experience_body{
+    #experience .experience_body {
         width: 100%;
     }
 
@@ -254,9 +290,10 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .container{
+    .container {
         max-width: 1080px;
     }
+
     .menu_head {
         margin-left: 0;
     }
@@ -277,28 +314,22 @@
             about section stsrt
     ============================= */
     #about .about_box::after {
-        top: 100px ;
-        left: -10px ;
-        transform: rotate(135deg) ;
+        top: 100px;
+        left: -10px;
+        transform: rotate(135deg);
     }
 
-    #services .service_box{
+    #services .service_box {
         width: 100%;
     }
 
-    .display{
+    .display {
         display: none;
     }
 
-    #experience .experience_body{
+    #experience .experience_body {
         width: 100%;
     }
-
-
-}
-
-@media only screen and (min-width: 1365px){
-
 
 
 }
