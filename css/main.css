@@ -64,21 +64,6 @@ body {
     background: #444;
 }
 
-/* btn hover defult effects */
-@keyframes btn_hover {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(0.8);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
 /*========================================
             Common Css End
 ========================================*/
@@ -126,12 +111,12 @@ body {
     font-weight: 600;
     text-transform: capitalize;
     border-radius: 10px;
+    text-shadow: 2px 2px 2px #b8b9be,
+    -2px -2px 2px #fff;
 }
 
 .main_menu ul li a:hover {
     color: #3194b3;
-    text-shadow: 2px 2px 2px #b8b9be,
-        -2px -2px 2px #fff;
 }
 
 .main_menu ul li a.nav-link i {
@@ -173,8 +158,6 @@ body {
 .rotate_icon {
     transform: rotate(180deg);
 }
-
-#mobile_btn:hover {}
 
 /*========================================
            nav section end
@@ -291,10 +274,6 @@ body {
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     -ms-transition: .5s ease-in-out;
-}
-
-#baner .intro .hire_btn:hover {
-    animation: btn_hover 0.5s 1;
 }
 
 .paralax img {
@@ -437,10 +416,6 @@ body {
     -ms-transition: .5s ease-in-out;
 }
 
-#about .about_box .about_text .btn_cv button:hover {
-    animation: btn_hover 0.5s linear;
-}
-
 .skills {
     width: 100%;
 }
@@ -499,8 +474,7 @@ body {
 }
 
 #about .state {
-    margin-top: 5rem;
-    padding-bottom: 2rem;
+    margin: 70px 0;
 }
 
 #about .state .state_item {
@@ -529,7 +503,6 @@ body {
            service section start
 ========================================*/
 #services {
-    margin-top: 2rem;
     overflow-y: hidden;
 }
 
@@ -601,10 +574,6 @@ body {
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     -ms-transition: .5s ease-in-out;
-}
-
-#services .service_btn button:hover {
-    animation: btn_hover 0.5s linear;
 }
 
 /*========================================
@@ -872,10 +841,6 @@ body {
     -ms-transition: .5s ease-in-out;
 }
 
-#work .all_work_btn button:hover {
-    animation: btn_hover 0.5s linear;
-}
-
 /*========================================
          work section end
 ========================================*/
@@ -1005,7 +970,7 @@ body {
     color: #444;
     font-weight: 700;
     text-shadow: 2px 2px 2px #b8b9be,
-        -2px -2px 2px #fff;
+        -2px -2px 2px #fff; 
 }
 
 #testimonial .testimonial_item {
@@ -1146,6 +1111,7 @@ body {
 #blog .blog_content .blog_img {
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 #blog .blog_content .blog_img img {
@@ -1216,10 +1182,6 @@ body {
     -ms-transition: .5s ease-in-out;
 }
 
-#blog .blog_btn button:hover {
-    animation: btn_hover 0.5s linear;
-}
-
 /*========================================
          blog section end
 ========================================*/
@@ -1271,6 +1233,10 @@ body {
     color: #666;
 }
 
+#contact .contact_info p a{
+    color: #3194b3;
+}
+
 #contact .from_input input,
 #contact .from_input textarea {
     width: 100%;
@@ -1309,10 +1275,6 @@ body {
     -ms-transition: .5s ease-in-out;
 }
 
-#contact .contact_btn button:hover {
-    animation: btn_hover 0.5s linear;
-}
-
 /*========================================
          contact section end
 ========================================*/
@@ -1327,7 +1289,7 @@ body {
     align-items: center;
     box-shadow: 4px 4px 8px #b8b9be,
         -4px -4px 8px #fff;
-    margin: 10px;
+    margin-bottom: 10px;
     padding: 40px 0;
     border-radius: 2px;
 }

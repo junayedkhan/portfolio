@@ -64,6 +64,10 @@
         margin-bottom: 30px;
     }
 
+    #testimonial .testimonial_item .review_box{
+        padding: 20px;
+    }
+
     #blog .blog_content {
         margin-bottom: 30px;
     }
@@ -155,6 +159,10 @@
         margin-bottom: 30px;
     }
 
+    #testimonial .testimonial_item .review_box{
+        padding: 30px;
+    }
+
     #blog .blog_content {
         margin-bottom: 30px;
     }
@@ -216,8 +224,6 @@
         text-align: center;
     }
 
-
-
     #services .service_box {
         width: 100%;
         margin-bottom: 2rem;
@@ -226,6 +232,10 @@
     #experience .experience_body {
         width: 100%;
         margin: 0 auto;
+    }
+
+    #testimonial .testimonial_item .review_box{
+        padding: 30px;
     }
 }
 
@@ -272,6 +282,9 @@
         text-align: center;
     }
 
+    #about .state .state_item {
+        margin-bottom: 0rem;
+    }
 
     #services .service_box {
         width: 100%;
@@ -283,6 +296,10 @@
 
     #experience .experience_body {
         width: 100%;
+    }
+
+    #testimonial .testimonial_item .review_box{
+        padding: 40px;
     }
 
 
@@ -329,6 +346,10 @@
 
     #experience .experience_body {
         width: 100%;
+    }
+
+    #testimonial .testimonial_item .review_box{
+        padding: 40px;
     }
 
 

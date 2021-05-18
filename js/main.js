@@ -85,6 +85,6 @@ $(document).ready(function () {
   $('.testimonial_content').owlCarousel({
     loop: true,
     items: 1,
-    dots: false
+    dots: true
   });
 });
