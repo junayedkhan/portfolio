@@ -1,9 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    /* ===========================
-        nav section start
-    ============================*/
     .menu_head {
         margin-left: -290px;
     }
@@ -12,19 +9,14 @@
         margin-left: 0px;
     }
 
-    /* ===========================
-       nav section end
-    ============================*/
     .main_content {
         margin-left: 0px;
     }
 
-    /* ============================
-            about section stsrt
-    ============================= */
     #about .about_box::after {
         top: -10px;
         left: 50%;
+        transform: translate(-50%);
         transform: rotate(225deg);
     }
 
@@ -96,9 +88,6 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-    /* ===========================
-        nav section start
-    ============================*/
     .menu_head {
         margin-left: -290px;
     }
@@ -107,19 +96,14 @@
         margin-left: 0px;
     }
 
-    /* ===========================
-        nav section end
-    ============================*/
     .main_content {
         margin-left: 0px;
     }
 
-    /* ============================
-            about section stsrt
-    ============================= */
     #about .about_box::after {
         top: -10px;
         left: 50%;
+        transform: translate(-50%);
         transform: rotate(225deg);
     }
 
@@ -176,9 +160,6 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-    /* ===========================
-        nav section start
-    ============================ */
     .menu_head {
         margin-left: -290px;
     }
@@ -187,20 +168,14 @@
         margin-left: 0px;
     }
 
-    /* ===========================
-        nav section end
-    ============================*/
-
     .main_content {
         margin-left: 0px;
     }
 
-    /* ============================
-            about section stsrt
-    ============================= */
     #about .about_box::after {
         top: -10px;
         left: 50%;
+        transform: translate(-50%);
         transform: rotate(225deg);
     }
 
@@ -257,12 +232,9 @@
         display: none;
     }
 
-    /* ============================
-            about section stsrt
-    ============================= */
     #about .about_box::after {
-        top: 100px;
-        left: -10px;
+        top: 45px;
+        left: -9px;
         transform: rotate(135deg);
     }
 
@@ -327,15 +299,6 @@
         display: none;
     }
 
-    /* ============================
-            about section stsrt
-    ============================= */
-    #about .about_box::after {
-        top: 100px;
-        left: -10px;
-        transform: rotate(135deg);
-    }
-
     #services .service_box {
         width: 100%;
     }
@@ -351,6 +314,5 @@
     #testimonial .testimonial_item .review_box{
         padding: 40px;
     }
-
 
 }

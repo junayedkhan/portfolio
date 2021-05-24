@@ -1,3 +1,4 @@
+// mobile button
 $(document).ready(function () {
   $("#mobile_btn").click(function () {
     $(".menu_head").toggleClass("menu");
@@ -5,12 +6,19 @@ $(document).ready(function () {
   });
 });
 
+// preloder
+$(window).on('load', () => {
+  $(".loader .inner").fadeOut(600, () => {
+    $(".loader").fadeOut(750)
+  })
+})
 
+// type.js
 $(document).ready(function () {
   var typed = new Typed('.element', {
     strings: [
-      "web designer",
-      "Web developer",
+      "Web Designer",
+      "Web Developer",
     ],
     stringsElement: null,
     typeSpeed: 400,
@@ -26,6 +34,7 @@ $(document).ready(function () {
   });
 });
 
+// baner mousemove
 document.addEventListener('mousemove', parallax)
 
 function parallax(e) {
@@ -37,6 +46,7 @@ function parallax(e) {
   });
 }
 
+// skill part
 $('.skill-per').each(function () {
   var $this = $(this);
   var per = $this.attr('per');
@@ -56,14 +66,15 @@ $('.skill-per').each(function () {
   });
 });
 
-
+// state counterup.js
 $(document).ready(function () {
   $('.counter').counterUp({
-    delay: 10,
-    time: 1000
+    delay: 5,
+    time: 500
   });
 });
 
+// work part filter
 $(document).ready(function () {
   $('.list').click(function () {
     const value = $(this).attr('filter_data')
@@ -80,11 +91,52 @@ $(document).ready(function () {
   });
 });
 
+// testimonial owlCarousel.js
+$(document).ready(function () {
+  $('.team_items').owlCarousel({
+    loop: true,
+    items: 3,
+    dots: true,
+    responsive : {
+      0 : {
+        items: 1
+      },
 
+      600 : {
+        items: 2
+      },
+
+      1100 : {
+        items: 3
+      },
+
+
+  }
+  });
+});
+
+// testimonial owlCarousel.js
 $(document).ready(function () {
   $('.testimonial_content').owlCarousel({
     loop: true,
     items: 1,
     dots: true
   });
+});
+
+//  scroll to top
+//Check to see if the window is top if not then display button
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 100) {
+    $('.scrollToTop').fadeIn();
+  } else {
+    $('.scrollToTop').fadeOut();
+  }
+});
+//Click event to scroll to top
+$('.scrollToTop').click(function () {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 100);
+  return false;
 });
